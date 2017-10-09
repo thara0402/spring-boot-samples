@@ -99,6 +99,34 @@ https://spring.io/tools/sts/all
 		</dependency>
 ```
 
+## Docker
+
+```shell-session
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+ADD target/helloworld-0.0.1-SNAPSHOT.jar app.jar
+ENV JAVA_OPTS=""
+EXPOSE 8080
+ENTRYPOINT exec java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar
+```
+
+```shell-session
+$ docker build -t thara0402/sbapp:latest ./
+```
+
+```shell-session
+$ docker run --name sbapp --rm -d -p 8080:8080 -t thara0402/sbapp:latest
+```
+
+```shell-session
+$ docker push thara0402/sbapp:latest
+```
+
+
+
+
+
+
 
 
 
