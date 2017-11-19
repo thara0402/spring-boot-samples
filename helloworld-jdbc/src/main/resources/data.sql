@@ -1,0 +1,9 @@
+INSERT INTO customers(first_name, last_name) VALUES('高海', '千歌');
+INSERT INTO customers(first_name, last_name) VALUES('桜内', '梨子');
+INSERT INTO customers(first_name, last_name) VALUES('松浦', '果南');
+INSERT INTO customers(first_name, last_name) VALUES('黒澤', 'ダイヤ');
+INSERT INTO customers(first_name, last_name) VALUES('渡辺', '曜');
+INSERT INTO customers(first_name, last_name) VALUES('津島', '善子');
+INSERT INTO customers(first_name, last_name) VALUES('国木田', '花丸');
+INSERT INTO customers(first_name, last_name) VALUES('小原', '鞠莉');
+INSERT INTO customers(first_name, last_name) VALUES('黒澤', 'ルビィ');
