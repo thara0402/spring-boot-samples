@@ -126,6 +126,25 @@ $ docker push thara0402/sbapp:latest
 
 https://projectlombok.org
 
+## Log4JDBC
+
+pom.xml
+```xml
+		<dependency>
+			<groupId>org.lazyluke</groupId>
+			<artifactId>log4jdbc-remix</artifactId>
+			<version>0.2.7</version>
+		</dependency>
+```
+
+application.properties
+```xml
+spring.datasource.driver-class-name=net.sf.log4jdbc.DriverSpy
+spring.datasource.url=jdbc:log4jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+logging.level.jdbc=OFF
+logging.level.jdbc.sqltiming=DEBUG
+```
+
 
 
 
