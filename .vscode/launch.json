@@ -1,0 +1,91 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DemoApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "demo",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloworldDiApplication<helloworld-di>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.example.HelloworldDiApplication",
+            "projectName": "helloworld-di",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloworldJdbcApplication<helloworld-jdbc>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.example.helloworldjdbc.HelloworldJdbcApplication",
+            "projectName": "helloworld-jdbc",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloworldJpaApplication<helloworld-jpa>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.example.helloworldjpa.HelloworldJpaApplication",
+            "projectName": "helloworld-jpa",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloworldLayeringApplication<helloworld-layering>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.example.HelloworldLayeringApplication",
+            "projectName": "helloworld-layering",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloworldApplication<helloworld>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.example.helloworld.HelloworldApplication",
+            "projectName": "helloworld",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloworldApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.example.helloworld.HelloworldApplication",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 8080
+        }
+    ]
+}
